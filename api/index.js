@@ -63,5 +63,5 @@ app.post("/cadastrar", (request, response) => {
     });
 });
 
+export default serverless(app);
 
-export const handler = serverless(app);
